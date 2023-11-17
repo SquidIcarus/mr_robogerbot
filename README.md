@@ -51,11 +51,19 @@ and click on the "Code" button and copy the URL.
 
 # Test-Driven Development (TDD)
 
+Describe: CreateNumArray(num)
 
-Test: When user inputs a number, a number array will be created from 0 to the number input
-Code: CreateNumArray(num) 
-Expected Output: If user inputs the number 5, the expected output is [0, 1, 2, 3, 4, 5]
+Test: "When user inputs the number 5, it will create an array of elements from 0-5.";
+Code: CreateNumArray(5); 
+Expected Output: [0, 1, 2, 3, 4, 5];
 
+Test: "When user inputs the number 13, it will create an array of elements from 0-13.";
+Code: CreateNumArray(13); 
+Expected Output: [0, 1, 2, 3, 4, 5, 6 ,7, 8, 9, 10. 11, 12, 13];
+
+Test: "When user inputs the number 0, it will create an array of just 0.";
+Code: CreateNumArray(0); 
+Expected Output: [0];
 
 
 ## License
