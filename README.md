@@ -49,6 +49,14 @@ and click on the "Code" button and copy the URL.
 
 ## Known Bugs
 
+# Test-Driven Development (TDD)
+
+
+Test: When user inputs a number, a number array will be created from 0 to the number input
+Code: CreateNumArray(num) 
+Expected Output: If user inputs the number 5, the expected output is [0, 1, 2, 3, 4, 5]
+
+
 
 ## License
 [Copyright © 2023 Landon Leadford](LICENSE.txt)
