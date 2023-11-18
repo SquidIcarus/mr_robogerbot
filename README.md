@@ -51,7 +51,7 @@ and click on the "Code" button and copy the URL.
 
 # Test-Driven Development (TDD)
 
-Describe: CreateNumArray(num)
+## Describe: CreateNumArray(num)
 
 Test: "When user inputs the number 5, it will create an array of elements from 0-5.";
 Code: CreateNumArray(5); 
@@ -64,6 +64,18 @@ Expected Output: [0, 1, 2, 3, 4, 5, 6 ,7, 8, 9, 10. 11, 12, 13];
 Test: "When user inputs the number 0, it will create an array of just 0.";
 Code: CreateNumArray(0); 
 Expected Output: [0];
+
+## Describe: glitchArray(numArray);
+
+Test: When user inputs the number 2, it will change all digits in the array with a "1" to "BEEP!";
+Code: glitchArray(2);
+Expected Output: [0, "BEEP!", 2];
+
+Test: When user inputs the number 15, it will change all digits in the array with a "1" to "BEEP!";
+Code: glitchArray(21);
+Expected Output: [0, "BEEP!", 2, 3, 4, 5, 6, 7, 8, 9, "BEEP!", "BEEP!", "BEEP!", "BEEP!", "BEEP!", "BEEP!"];
+
+
 
 
 ## License
