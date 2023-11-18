@@ -67,13 +67,13 @@ Expected Output: [0];
 
 ## Describe: glitchArray(numArray);
 
-Test: When user inputs the number 2, it will change all digits in the array with a "1" to "BEEP!";
+Test: forEach loop will change all elements with a 1 to "BeeP!", when user inputs the number 2;
 Code: glitchArray(2);
-Expected Output: [0, "BEEP!", 2];
+Expected Output: [0, "BeeP!", 2];
 
-Test: When user inputs the number 15, it will change all digits in the array with a "1" to "BEEP!";
-Code: glitchArray(21);
-Expected Output: [0, "BEEP!", 2, 3, 4, 5, 6, 7, 8, 9, "BEEP!", "BEEP!", "BEEP!", "BEEP!", "BEEP!", "BEEP!"];
+Test: forEach loop will change all elements with a 2 "BooP!", when user inputs the number 15;
+Code: glitchArray(12);
+Expected Output: [0, "BeeP", "BooP!", 3, 4, 5, 6, 7, 8, 9, "BeeP!", "BeeP!", "BooP!", "BeeP!", "BeeP!", "BeeP!"];
 
 
 

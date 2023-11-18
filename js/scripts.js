@@ -10,8 +10,12 @@ function createNumArray(num) {
 
 function glitchArray(numArray) {
     numArray.forEach((item, index) => {
-        if (item.toString().includes("1")) {
-            numArray[index] = "BEEP!";
+        if (item.toString().includes("3")) {
+            numArray[index] = "WON'T YOU BE MY NEIGHBOR?";
+        } else if (item.toString().includes("2")) {
+            numArray[index] = "BooP!";
+        } else if (item.toString().includes("1")) {
+            numArray[index] = "BeeP!";
         }
     });
     return numArray;
