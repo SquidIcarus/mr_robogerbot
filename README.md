@@ -25,7 +25,7 @@ Input a number and get a Roboger response!
 **How to clone repository**
 
 1. Go to 
-**NEW LINK**
+**https://github.com/SquidIcarus/mr_robogerbot**
 and click on the "Code" button and copy the URL.
 
 2. Open Terminal/GitBash
