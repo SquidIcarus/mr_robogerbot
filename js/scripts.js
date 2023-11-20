@@ -42,10 +42,12 @@ let isDarkMode = false;
 
 function darkMode() {
     let body = document.querySelector("body");
-    let darkElements = document.querySelectorAll("h1, h2, strong, span#showResults, button, img");
+    let darkElements = document.querySelectorAll("h1, h2, strong, img");
+    let redResults = document.querySelector("span#showResults")
 
     if (!isDarkMode) {
         body.style.backgroundColor = "black";
+        redResults.style.color = "red";
         for (let element of darkElements) {
             element.style.color = "grey";
         }
@@ -53,6 +55,7 @@ function darkMode() {
         isDarkMode = true;
     } else {
         body.style.backgroundColor = "white";
+        redResults.style.color = "black";
         for (let element of darkElements) {
             element.style.color = "black"
         }
