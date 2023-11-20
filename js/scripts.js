@@ -36,7 +36,30 @@ function formSubmission() {
         formInput();
         document.getElementById("results").removeAttribute("class");
     }
-};
+}
+
+let isDarkMode = false;
+
+function darkMode() {
+    let body = document.querySelector("body");
+    let darkElements = document.querySelectorAll("h1, h2, strong, span#showResults, button, img");
+
+    if (!isDarkMode) {
+        body.style.backgroundColor = "black";
+        for (let element of darkElements) {
+            element.style.color = "grey";
+        }
+        document.querySelector("img").src = "img/MrRobogerBotInator.jfif";
+        isDarkMode = true;
+    } else {
+        body.style.backgroundColor = "white";
+        for (let element of darkElements) {
+            element.style.color = "black"
+        }
+        document.querySelector("img").src = "img/mr_robogerbot.png";
+        isDarkMode = false;
+    }
+}
 
 window.onload = function () {
     formSubmission();
