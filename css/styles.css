@@ -5,6 +5,11 @@
     display: none;
 }
 
+img {
+    width: 500px;
+    height: 350px;
+}
+
 body {
     text-align: center;
     font-family: 'Terminator Real NFI', sans-serif;

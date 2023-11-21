@@ -50,8 +50,7 @@ and click on the "Code" button and copy the URL.
 ## Known Bugs
 
 # Test-Driven Development (TDD)
-
-```Describe: CreateNumArray(num)```
+``` Describe: CreateNumArray(num)```
 
 ```Test: "When user inputs the number 5, it will create an array of elements from 0-5.";```
 ```Code: CreateNumArray(5);``` 
