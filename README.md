@@ -66,16 +66,16 @@ and click on the "Code" button and copy the URL.
 
 ```Describe: glitchArray(numArray);```
 
-```Test: forEach loop will change all elements with a 1 to "BeeP!", when user inputs the number 2;```
-```Code: glitchArray(2);```
+```Test: forEach loop will change all elements with a 1 to "BeeP!". When user inputs the number 2;```
+```Code: glitchArray([0, 1, 2]);```
 ```Expected Output: [0, "BeeP!", 2];```
 
-```Test: forEach loop will change all elements with a 2 "BooP!", when user inputs the number 15;```
-```Code: glitchArray(12);```
+```Test: forEach loop will change all elements with a 2 to "BooP!". When user inputs the number 12;```
+```Code: glitchArray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);```
 ```Expected Output: [0, "BeeP", "BooP!", 3, 4, 5, 6, 7, 8, 9, "BeeP!", "BeeP!", "BooP!", "BeeP!", "BeeP!", "BeeP!"];```
 
 ```Test: forEach loop will change all elements with a 3 to "Won't you be my neighbor!", when user inputs the number 3;```
-```Code: glitchArray(2);```
+```Code: glitchArray([0, 1, 2, 3]);```
 ```Expected Output: [0, "BeeP!", "BooP!", "Won't you be my neighbor!"];```
 
 
