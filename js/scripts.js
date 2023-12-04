@@ -35,7 +35,7 @@ function formSubmission() {
         event.preventDefault();
         formInput();
         document.getElementById("results").removeAttribute("class");
-    }
+    };
 }
 
 let isDarkMode = false;
@@ -43,7 +43,7 @@ let isDarkMode = false;
 function darkMode() {
     let body = document.querySelector("body");
     let darkElements = document.querySelectorAll("h1, h2, strong, img");
-    let redResults = document.querySelector("span#showResults")
+    let redResults = document.querySelector("span#showResults");
 
     if (!isDarkMode) {
         body.style.backgroundColor = "black";
@@ -57,13 +57,13 @@ function darkMode() {
         body.style.backgroundColor = "white";
         redResults.style.color = "black";
         for (let element of darkElements) {
-            element.style.color = "black"
+            element.style.color = "black";
         }
         document.querySelector("img").src = "img/mr_robogerbot.png";
         isDarkMode = false;
     }
-}
 
-window.onload = function () {
-    formSubmission();
-}
+    window.onload = function () {
+        formSubmission();
+    }
+};
