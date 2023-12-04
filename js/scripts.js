@@ -62,8 +62,8 @@ function darkMode() {
         document.querySelector("img").src = "img/mr_robogerbot.png";
         isDarkMode = false;
     }
+}
 
-    window.onload = function () {
-        formSubmission();
-    }
+window.onload = function () {
+    formSubmission();
 };
